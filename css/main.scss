@@ -38,7 +38,7 @@ body {
         z-index: -1;
 
         @include desktop {
-            clip-path: polygon(0 0, 75% 0, 55% 100%, 0% 100%);
+            clip-path: polygon(0 0, 95% 0, 55% 100%, 0% 100%);
         }
     }
 
@@ -129,7 +129,7 @@ main {
         }
 
         p {
-            font-size: 1.4em;
+            font-size: 1.0em;
         }
 
         a {

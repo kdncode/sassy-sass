@@ -19,8 +19,8 @@ body #bg {
 
 @media (min-width: 840px) {
   body #bg {
-    -webkit-clip-path: polygon(0 0, 75% 0, 55% 100%, 0% 100%);
-            clip-path: polygon(0 0, 75% 0, 55% 100%, 0% 100%);
+    -webkit-clip-path: polygon(0 0, 95% 0, 55% 100%, 0% 100%);
+            clip-path: polygon(0 0, 95% 0, 55% 100%, 0% 100%);
   }
 }
 
@@ -119,7 +119,7 @@ main section#primary h1 {
 }
 
 main section#primary p {
-  font-size: 1.4em;
+  font-size: 1.0em;
 }
 
 main section#primary a {
