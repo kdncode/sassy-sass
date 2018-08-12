@@ -1,13 +1,12 @@
 $colors: (
-    primary:#005DFF,
-    primary-light: lighten(#005DFF, 40%),
-    primary-dark: darken(#005DFF, 40%),
-    accent: #FFF6BB,
-    background: rgb(165, 255, 165)
+    primary:#2d2a5f,
+    primary-light: lighten(#2d2a5f, 40%),
+    primary-dark: darken(#2d2a5f, 40%),
+    background: linear-gradient(45deg, #8F75FF, #FF72AE)
 );
 
 $padding: 15px;
-$borders: 15px;
+$borders: 10px;
 
 @function color($color-name) {
     @return map-get($colors, $color-name)
@@ -135,7 +134,7 @@ main {
 
         a {
             color: color(primary-dark);
-            background-color: color(accent);
+            background-image: linear-gradient(45deg, #8F75FF, #FF72AE);
             padding: $padding;
             text-decoration: none;
             text-transform: uppercase;
@@ -147,7 +146,7 @@ main {
             border-radius: $borders;
 
             &:hover {
-                background: color(background);
+                background-image: linear-gradient(45deg, rgb(105, 73, 249), rgb(252, 74, 151));
             }
 
             // Desktop Responsive
