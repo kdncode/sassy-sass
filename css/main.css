@@ -136,6 +136,10 @@ main section#primary a {
   border-radius: 15px;
 }
 
+main section#primary a:hover {
+  background: #a5ffa5;
+}
+
 @media (min-width: 840px) {
   main section#primary a {
     display: inline-block;
